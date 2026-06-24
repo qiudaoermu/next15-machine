@@ -10,17 +10,22 @@ export const translations = {
   zh
 }
 
-export function t(locale: Locale, key: string): string {
+export function getTranslation(locale: Locale, key: string): unknown {
   const keys = key.split('.')
-  let value: any = translations[locale]
-  
+  let value: unknown = translations[locale] as unknown
+
   for (const k of keys) {
-    if (value && typeof value === 'object' && k in value) {
-      value = value[k]
+    if (value && typeof value === 'object' && k in (value as Record<string, unknown>)) {
+      value = (value as Record<string, unknown>)[k]
     } else {
-      return key
+      return undefined
     }
   }
-  
+
+  return value
+}
+
+export function t(locale: Locale, key: string): string {
+  const value = getTranslation(locale, key)
   return typeof value === 'string' ? value : key
 }

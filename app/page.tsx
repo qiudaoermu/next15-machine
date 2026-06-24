@@ -2,7 +2,7 @@
 
 import Link from 'next/link';
 import { useLocale } from '@/context/LocaleContext';
-import { t } from '@/lib/i18n';
+import { getTranslation, t } from '@/lib/i18n';
 import products from '@/data/products.json';
 import categories from '@/data/categories.json';
 import cases from '@/data/cases.json';
@@ -20,12 +20,13 @@ export default function Home() {
     },
   ];
 
-  const advantages = [
-    { icon: Shield, title: (t(locale, 'advantages') as any)[0].title, desc: (t(locale, 'advantages') as any)[0].desc },
-    { icon: DollarSign, title: (t(locale, 'advantages') as any)[1].title, desc: (t(locale, 'advantages') as any)[1].desc },
-    { icon: Truck, title: (t(locale, 'advantages') as any)[2].title, desc: (t(locale, 'advantages') as any)[2].desc },
-    { icon: Clock, title: (t(locale, 'advantages') as any)[3].title, desc: (t(locale, 'advantages') as any)[3].desc },
-  ];
+  const advantageItems = (getTranslation(locale, 'advantages') as unknown as { title: string; desc: string }[]) ?? [];
+  const advantageIcons = [Shield, DollarSign, Truck, Clock];
+  const advantages = advantageIcons.map((icon, index) => ({
+    icon,
+    title: advantageItems[index]?.title ?? '',
+    desc: advantageItems[index]?.desc ?? '',
+  }));
 
   return (
     <div className="overflow-hidden">

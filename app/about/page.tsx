@@ -2,19 +2,20 @@
 
 import Link from 'next/link'
 import { useLocale } from '@/context/LocaleContext'
-import { t } from '@/lib/i18n'
-import { Shield, DollarSign, Truck, Clock, Users, Factory, Award } from 'lucide-react'
+import { getTranslation, t } from '@/lib/i18n'
+import { Shield, DollarSign, Truck, Clock } from 'lucide-react'
 import { ChevronRight } from 'lucide-react'
 
 export default function AboutPage() {
   const { locale } = useLocale()
 
-  const advantages = [
-    { icon: Shield, title: (t(locale, 'advantages') as any[])[0].title, desc: (t(locale, 'advantages') as any[])[0].desc },
-    { icon: DollarSign, title: (t(locale, 'advantages') as any[])[1].title, desc: (t(locale, 'advantages') as any[])[1].desc },
-    { icon: Truck, title: (t(locale, 'advantages') as any[])[2].title, desc: (t(locale, 'advantages') as any[])[2].desc },
-    { icon: Clock, title: (t(locale, 'advantages') as any[])[3].title, desc: (t(locale, 'advantages') as any[])[3].desc },
-  ]
+  const advantageItems = (getTranslation(locale, 'advantages') as unknown as { title: string; desc: string }[]) ?? []
+  const advantageIcons = [Shield, DollarSign, Truck, Clock]
+  const advantages = advantageIcons.map((icon, index) => ({
+    icon,
+    title: advantageItems[index]?.title ?? '',
+    desc: advantageItems[index]?.desc ?? '',
+  }))
 
   const facts = [
     { number: '15+', label: 'Years Experience' },
