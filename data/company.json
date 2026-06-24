@@ -1,0 +1,14 @@
+{
+  "name": {
+    "en": "Power Machinery Co., Ltd.",
+    "zh": "动力机械有限公司"
+  },
+  "address": {
+    "en": "No. 888 Industrial Park, Yangzhou, Jiangsu, China",
+    "zh": "中国江苏省扬州市工业园区888号"
+  },
+  "email": "sales@powermachinery.com",
+  "phone": "+86 514-8888-8888",
+  "whatsapp": "+86 138-8888-8888",
+  "logo": "https://coresg-normal.trae.ai/api/ide/v1/text_to_image?prompt=simple%20professional%20logo%20PM%20text%20industrial%20style%20black%20white&image_size=square"
+}

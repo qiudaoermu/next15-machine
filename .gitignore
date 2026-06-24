@@ -1,0 +1,55 @@
+docs/
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+_MACOSX
+.DS_Store
+.next
+# Build output
+node_modules
+dist
+dist-ssr
+coverage
+/cypress/videos/
+/cypress/screenshots/
+
+# Editor directories and files
+.vscode/*
+# !.vscode/settings.json
+!.vscode/extensions.json
+.idea
+.fleet
+.history
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+/.swc
+*.tsbuildinfo
+
+# local env files
+
+.env.*.local
+
+# unplugin
+components.d.ts
+auto-imports.d.ts
+
+# Temporary files
+/tmp
+
+# typescript
+/out-tsc
+
+#yarn
+/.pnp
+.pnp.js
+
+#pnpm
+.pnpm-store

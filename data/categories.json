@@ -1,0 +1,47 @@
+[
+  {
+    "id": "riding",
+    "name": {
+      "en": "Riding Mowers",
+      "zh": "驾驶式割草机"
+    },
+    "icon": "tractor",
+    "image": "https://coresg-normal.trae.ai/api/ide/v1/text_to_image?prompt=riding%20lawn%20mower%20industrial%20green&image_size=square"
+  },
+  {
+    "id": "self-propelled",
+    "name": {
+      "en": "Self-Propelled",
+      "zh": "自走式割草机"
+    },
+    "icon": "scissors",
+    "image": "https://coresg-normal.trae.ai/api/ide/v1/text_to_image?prompt=self%20propelled%20lawn%20mower&image_size=square"
+  },
+  {
+    "id": "electric",
+    "name": {
+      "en": "Electric Mowers",
+      "zh": "电动割草机"
+    },
+    "icon": "zap",
+    "image": "https://coresg-normal.trae.ai/api/ide/v1/text_to_image?prompt=electric%20lawn%20mower&image_size=square"
+  },
+  {
+    "id": "tractor",
+    "name": {
+      "en": "Garden Tractors",
+      "zh": "园林拖拉机"
+    },
+    "icon": "truck",
+    "image": "https://coresg-normal.trae.ai/api/ide/v1/text_to_image?prompt=garden%20tractor%20equipment&image_size=square"
+  },
+  {
+    "id": "brush-cutter",
+    "name": {
+      "en": "Brush Cutters",
+      "zh": "割灌机"
+    },
+    "icon": "tool",
+    "image": "https://coresg-normal.trae.ai/api/ide/v1/text_to_image?prompt=brush%20cutter%20tool&image_size=square"
+  }
+]

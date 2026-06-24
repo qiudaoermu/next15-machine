@@ -1,0 +1,464 @@
+[
+  {
+    "id": "lm-001",
+    "name": {
+      "en": "Professional Riding Lawn Mower",
+      "zh": "专业驾驶式割草机"
+    },
+    "description": {
+      "en": "High-performance riding lawn mower designed for large area maintenance, equipped with powerful engine and wide cutting deck.",
+      "zh": "专为大面积维护设计的高性能驾驶式割草机，配备强劲发动机和宽幅割台。"
+    },
+    "category": "riding",
+    "model": "PM-RM500",
+    "image": "/images/lawnmower-1.jpg",
+    "images": [
+      "/images/lawnmower-1.jpg",
+      "/images/lawnmower-2.jpg"
+    ],
+    "specifications": [
+      {
+        "name": { "en": "Engine Power", "zh": "发动机功率" },
+        "value": "25 HP"
+      },
+      {
+        "name": { "en": "Cutting Width", "zh": "割幅宽度" },
+        "value": "120 cm"
+      },
+      {
+        "name": { "en": "Cutting Height", "zh": "割草高度" },
+        "value": "25-100 mm"
+      },
+      {
+        "name": { "en": "Fuel Tank", "zh": "燃油箱" },
+        "value": "15 L"
+      },
+      {
+        "name": { "en": "Weight", "zh": "重量" },
+        "value": "320 kg"
+      }
+    ],
+    "features": {
+      "en": [
+        "Powerful four-stroke engine",
+        "Hydrostatic transmission",
+        "Adjustable cutting height",
+        "Comfortable operator seat",
+        "Easy maintenance access"
+      ],
+      "zh": [
+        "强劲四冲程发动机",
+        "静液压传动",
+        "可调割草高度",
+        "舒适驾驶座椅",
+        "维护便捷"
+      ]
+    },
+    "applications": {
+      "en": [
+        "Golf courses",
+        "Sports fields",
+        "Large parks",
+        "Commercial properties"
+      ],
+      "zh": [
+        "高尔夫球场",
+        "运动场",
+        "大型公园",
+        "商业物业"
+      ]
+    },
+    "pdfUrl": "/manuals/pm-rm500.pdf",
+    "hot": true
+  },
+  {
+    "id": "lm-002",
+    "name": {
+      "en": "Self-Propelled Lawn Mower",
+      "zh": "自走式割草机"
+    },
+    "description": {
+      "en": "Versatile self-propelled lawn mower perfect for medium to large residential lawns and commercial use.",
+      "zh": "多功能自走式割草机，完美适用于中大型住宅草坪和商业用途。"
+    },
+    "category": "self-propelled",
+    "model": "PM-SP300",
+    "image": "/images/lawnmower-2.jpg",
+    "images": [
+      "/images/lawnmower-2.jpg",
+      "/images/lawnmower-3.jpg"
+    ],
+    "specifications": [
+      {
+        "name": { "en": "Engine Power", "zh": "发动机功率" },
+        "value": "6.5 HP"
+      },
+      {
+        "name": { "en": "Cutting Width", "zh": "割幅宽度" },
+        "value": "53 cm"
+      },
+      {
+        "name": { "en": "Cutting Height", "zh": "割草高度" },
+        "value": "20-75 mm"
+      },
+      {
+        "name": { "en": "Fuel Tank", "zh": "燃油箱" },
+        "value": "3.5 L"
+      }
+    ],
+    "features": {
+      "en": [
+        "Self-propelled drive system",
+        "5-speed adjustable",
+        "Foldable handle",
+        "Large grass bag",
+        "Mulching function"
+      ],
+      "zh": [
+        "自走驱动系统",
+        "5档可调",
+        "可折叠把手",
+        "大容量草袋",
+        "碎草功能"
+      ]
+    },
+    "applications": {
+      "en": [
+        "Residential lawns",
+        "Small parks",
+        "Schools",
+        "Small businesses"
+      ],
+      "zh": [
+        "住宅草坪",
+        "小型公园",
+        "学校",
+        "小型企业"
+      ]
+    },
+    "hot": true
+  },
+  {
+    "id": "lm-003",
+    "name": {
+      "en": "Electric Lawn Mower",
+      "zh": "电动割草机"
+    },
+    "description": {
+      "en": "Eco-friendly electric lawn mower with zero emissions, quiet operation, and low maintenance.",
+      "zh": "环保型电动割草机，零排放，低噪音，维护成本低。"
+    },
+    "category": "electric",
+    "model": "PM-EL200",
+    "image": "/images/lawnmower-3.jpg",
+    "images": [
+      "/images/lawnmower-3.jpg"
+    ],
+    "specifications": [
+      {
+        "name": { "en": "Motor Power", "zh": "电机功率" },
+        "value": "2000 W"
+      },
+      {
+        "name": { "en": "Cutting Width", "zh": "割幅宽度" },
+        "value": "42 cm"
+      },
+      {
+        "name": { "en": "Battery Life", "zh": "电池续航" },
+        "value": "60 min"
+      },
+      {
+        "name": { "en": "Charging Time", "zh": "充电时间" },
+        "value": "4 hours"
+      }
+    ],
+    "features": {
+      "en": [
+        "Zero emissions",
+        "Quiet operation",
+        "Cordless design",
+        "Lightweight",
+        "Easy to store"
+      ],
+      "zh": [
+        "零排放",
+        "低噪音运行",
+        "无线设计",
+        "轻便",
+        "易于存储"
+      ]
+    },
+    "applications": {
+      "en": [
+        "Urban gardens",
+        "Residential yards",
+        "Noise-sensitive areas",
+        "Eco-friendly projects"
+      ],
+      "zh": [
+        "城市花园",
+        "住宅庭院",
+        "噪音敏感区域",
+        "环保项目"
+      ]
+    },
+    "hot": false
+  },
+  {
+    "id": "lm-004",
+    "name": {
+      "en": "Heavy Duty Flail Mower",
+      "zh": "重型甩刀式割草机"
+    },
+    "description": {
+      "en": "Industrial-grade flail mower for tough vegetation and overgrown areas. Perfect for agricultural and roadside maintenance.",
+      "zh": "工业级甩刀式割草机，适用于艰苦植被和杂草丛生的地区。完美用于农业和道路维护。"
+    },
+    "category": "brush-cutter",
+    "model": "PM-FM600",
+    "image": "/images/lawnmower-4.jpg",
+    "images": [
+      "/images/lawnmower-4.jpg",
+      "/images/lawnmower-5.jpg"
+    ],
+    "specifications": [
+      {
+        "name": { "en": "Engine Power", "zh": "发动机功率" },
+        "value": "35 HP"
+      },
+      {
+        "name": { "en": "Cutting Width", "zh": "割幅宽度" },
+        "value": "150 cm"
+      },
+      {
+        "name": { "en": "Cutting Capacity", "zh": "切割能力" },
+        "value": "50 mm Ø"
+      },
+      {
+        "name": { "en": "PTO Speed", "zh": "动力输出转速" },
+        "value": "540 rpm"
+      }
+    ],
+    "features": {
+      "en": [
+        "Heavy-duty flail blades",
+        "Smooth operation",
+        "Adjustable cutting height",
+        "Safety guards",
+        "Rear roller for finish"
+      ],
+      "zh": [
+        "重型甩刀",
+        "平稳运行",
+        "可调切割高度",
+        "安全护罩",
+        "后置压辊"
+      ]
+    },
+    "applications": {
+      "en": [
+        "Roadside maintenance",
+        "Agricultural land",
+        "Meadows and pastures",
+        "Industrial sites"
+      ],
+      "zh": [
+        "路边维护",
+        "农业用地",
+        "牧场",
+        "工业场所"
+      ]
+    },
+    "hot": true
+  },
+  {
+    "id": "tr-001",
+    "name": {
+      "en": "Garden Tractor",
+      "zh": "园林拖拉机"
+    },
+    "description": {
+      "en": "Multi-purpose garden tractor for various landscaping tasks including mowing, plowing, and hauling.",
+      "zh": "多功能园林拖拉机，适用于割草、耕地、运输等多种园林绿化作业。"
+    },
+    "category": "tractor",
+    "model": "PM-GT400",
+    "image": "/images/lawnmower-5.jpg",
+    "images": [
+      "/images/lawnmower-5.jpg"
+    ],
+    "specifications": [
+      {
+        "name": { "en": "Engine Power", "zh": "发动机功率" },
+        "value": "40 HP"
+      },
+      {
+        "name": { "en": "4WD", "zh": "四轮驱动" },
+        "value": "Yes"
+      },
+      {
+        "name": { "en": "Lifting Capacity", "zh": "举升能力" },
+        "value": "500 kg"
+      },
+      {
+        "name": { "en": "Weight", "zh": "重量" },
+        "value": "850 kg"
+      }
+    ],
+    "features": {
+      "en": [
+        "Four-wheel drive",
+        "Power take-off",
+        "Hydraulic lift",
+        "Multiple attachments",
+        "Cabin option"
+      ],
+      "zh": [
+        "四轮驱动",
+        "动力输出轴",
+        "液压提升",
+        "多种附件",
+        "驾驶室可选"
+      ]
+    },
+    "applications": {
+      "en": [
+        "Large estates",
+        "Farms",
+        "Municipal works",
+        "Landscaping projects"
+      ],
+      "zh": [
+        "大型庄园",
+        "农场",
+        "市政工程",
+        "园林绿化项目"
+      ]
+    },
+    "hot": true
+  },
+  {
+    "id": "lm-005",
+    "name": {
+      "en": "Cylinder Reel Mower",
+      "zh": "滚筒式割草机"
+    },
+    "description": {
+      "en": "Precision cylinder reel mower for golf course greens and fine turf, delivering the perfect cut every time.",
+      "zh": "精密滚筒式割草机，适用于高尔夫球场果岭和优质草坪，每次都能完美切割。"
+    },
+    "category": "self-propelled",
+    "model": "PM-RC250",
+    "image": "/images/lawnmower-1.jpg",
+    "images": [
+      "/images/lawnmower-1.jpg"
+    ],
+    "specifications": [
+      {
+        "name": { "en": "Cutting Width", "zh": "割幅宽度" },
+        "value": "66 cm"
+      },
+      {
+        "name": { "en": "Cutting Height", "zh": "割草高度" },
+        "value": "2-15 mm"
+      },
+      {
+        "name": { "en": "Reel Blades", "zh": "滚筒刀片" },
+        "value": "8 blades"
+      }
+    ],
+    "features": {
+      "en": [
+        "Precision cutting",
+        "Smooth reel action",
+        "Height micro-adjustment",
+        "Lightweight",
+        "Quality finish"
+      ],
+      "zh": [
+        "精密切割",
+        "流畅滚筒运动",
+        "高度微调",
+        "轻便",
+        "优质表面"
+      ]
+    },
+    "applications": {
+      "en": [
+        "Golf course greens",
+        "Fine lawns",
+        "Sports fields",
+        "Luxury properties"
+      ],
+      "zh": [
+        "高尔夫球场果岭",
+        "优质草坪",
+        "运动场",
+        "豪宅"
+      ]
+    },
+    "hot": false
+  },
+  {
+    "id": "br-002",
+    "name": {
+      "en": "Professional Brush Cutter",
+      "zh": "专业割灌机"
+    },
+    "description": {
+      "en": "Professional-grade brush cutter with ergonomic design and powerful engine for demanding vegetation management.",
+      "zh": "专业级割灌机，人体工学设计，强劲发动机，适用于苛刻的植被管理。"
+    },
+    "category": "brush-cutter",
+    "model": "PM-BC450",
+    "image": "/images/lawnmower-2.jpg",
+    "images": [
+      "/images/lawnmower-2.jpg"
+    ],
+    "specifications": [
+      {
+        "name": { "en": "Engine Power", "zh": "发动机功率" },
+        "value": "2.5 HP"
+      },
+      {
+        "name": { "en": "Blade Diameter", "zh": "刀片直径" },
+        "value": "255 mm"
+      },
+      {
+        "name": { "en": "Shaft Type", "zh": "轴类型" },
+        "value": "Straight"
+      }
+    ],
+    "features": {
+      "en": [
+        "Powerful engine",
+        "Anti-vibration system",
+        "Ergonomic handle",
+        "Multiple blade options",
+        "Easy start"
+      ],
+      "zh": [
+        "强劲发动机",
+        "防震动系统",
+        "人体工学把手",
+        "多种刀片可选",
+        "易启动"
+      ]
+    },
+    "applications": {
+      "en": [
+        "Roadside maintenance",
+        "Forestry",
+        "Park maintenance",
+        "Agriculture"
+      ],
+      "zh": [
+        "道路维护",
+        "林业",
+        "公园维护",
+        "农业"
+      ]
+    },
+    "hot": false
+  }
+]

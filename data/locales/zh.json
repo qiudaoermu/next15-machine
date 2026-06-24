@@ -1,0 +1,92 @@
+{
+  "common": {
+    "home": "首页",
+    "products": "产品中心",
+    "cases": "案例展示",
+    "about": "关于我们",
+    "contact": "联系我们",
+    "enquiry": "立即询价",
+    "language": "English",
+    "quickLinks": "快速链接",
+    "contactUs": "联系我们",
+    "followUs": "关注我们",
+    "copyright": "© 2024 动力机械. 保留所有权利."
+  },
+  "nav": {
+    "home": "首页",
+    "products": "产品中心",
+    "cases": "案例展示",
+    "about": "关于我们",
+    "contact": "联系我们"
+  },
+  "home": {
+    "hero": {
+      "title1": "专业割草机设备",
+      "subtitle1": "为专业园林绿化设计的高品质园林机械",
+      "title2": "工业级设备",
+      "subtitle2": "经久耐用的专业机械",
+      "title3": "全球出口方案",
+      "subtitle3": "深受全球客户信赖"
+    },
+    "categories": "产品分类",
+    "advantages": "我们的优势",
+    "features": "核心特点",
+    "hotProducts": "热销产品",
+    "cases": "工程案例",
+    "partners": "合作伙伴"
+  },
+  "products": {
+    "title": "产品中心",
+    "filter": "筛选",
+    "all": "全部",
+    "viewDetails": "查看详情",
+    "getQuote": "立即询价",
+    "specifications": "技术参数",
+    "features": "产品特点",
+    "applications": "应用场景",
+    "download": "下载说明书",
+    "relatedProducts": "相关产品"
+  },
+  "cases": {
+    "title": "工程案例",
+    "subtitle": "遍布全球的成功案例"
+  },
+  "about": {
+    "title": "关于我们",
+    "ourStory": "我们的故事",
+    "factory": "工厂实力",
+    "certificates": "资质证书",
+    "whyChooseUs": "为什么选择我们"
+  },
+  "contact": {
+    "title": "联系我们",
+    "subtitle": "与我们取得联系",
+    "address": "地址",
+    "email": "邮箱",
+    "phone": "电话",
+    "whatsapp": "WhatsApp",
+    "sendMessage": "发送消息",
+    "name": "您的姓名",
+    "company": "公司名称",
+    "subject": "主题",
+    "message": "您的留言"
+  },
+  "advantages": [
+    {
+      "title": "品质保证",
+      "desc": "全程严格的质量控制"
+    },
+    {
+      "title": "价格优势",
+      "desc": "工厂直供最优价格"
+    },
+    {
+      "title": "快速发货",
+      "desc": "高效物流运输服务"
+    },
+    {
+      "title": "全天候服务",
+      "desc": "专业售后技术支持"
+    }
+  ]
+}

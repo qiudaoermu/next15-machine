@@ -1,0 +1,58 @@
+[
+  {
+    "id": "case-001",
+    "title": {
+      "en": "Golf Course Maintenance",
+      "zh": "高尔夫球场维护"
+    },
+    "description": {
+      "en": "Complete equipment solution for a premium golf course in California.",
+      "zh": "为加利福尼亚一家高端高尔夫球场提供完整的设备解决方案。"
+    },
+    "image": "https://coresg-normal.trae.ai/api/ide/v1/text_to_image?prompt=golf%20course%20landscaping%20maintenance&image_size=square_hd",
+    "location": "California, USA",
+    "year": "2024"
+  },
+  {
+    "id": "case-002",
+    "title": {
+      "en": "City Park Renovation",
+      "zh": "城市公园改造"
+    },
+    "description": {
+      "en": "Supplied machinery for a large municipal park project in New York.",
+      "zh": "为纽约一个大型市政公园项目提供机械设备。"
+    },
+    "image": "https://coresg-normal.trae.ai/api/ide/v1/text_to_image?prompt=city%20park%20landscaping%20equipment&image_size=square_hd",
+    "location": "New York, USA",
+    "year": "2023"
+  },
+  {
+    "id": "case-003",
+    "title": {
+      "en": "Sports Complex Facility",
+      "zh": "体育场馆设施"
+    },
+    "description": {
+      "en": "Professional field maintenance equipment for a major sports complex.",
+      "zh": "为大型体育场馆提供专业场地维护设备。"
+    },
+    "image": "https://coresg-normal.trae.ai/api/ide/v1/text_to_image?prompt=sports%20field%20maintenance%20equipment&image_size=square_hd",
+    "location": "Texas, USA",
+    "year": "2023"
+  },
+  {
+    "id": "case-004",
+    "title": {
+      "en": "Residential Community",
+      "zh": "住宅社区"
+    },
+    "description": {
+      "en": "Complete landscaping package for an upscale residential community.",
+      "zh": "为高端住宅社区提供完整的园林绿化方案。"
+    },
+    "image": "https://coresg-normal.trae.ai/api/ide/v1/text_to_image?prompt=residential%20community%20landscaping&image_size=square_hd",
+    "location": "Florida, USA",
+    "year": "2024"
+  }
+]
